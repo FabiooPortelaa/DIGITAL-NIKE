@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    color: black;
+    font-weight: 700;
+    font-size: 45px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 15px;
+    width: 523px;
+    height: 36px;
+    font-style: bold;
+}
+#a1{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    padding: 5px 5px;
+    position: relative;
+    left: 45px; 
+    width: 572px; 
+    height: 28px;
+    vertical-align: top;
+    line-height: 28px;
+}
+button{
+    background-color: #C92071;
+    color:rgba(245, 245, 245, 1);
+    width: 523px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    left: 27px;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+#login{
+    width: 148px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    position: relative;
+    top: 60px;
+    right: 307px;
+    color: rgba(71, 71, 71, 1);
+}
+.icons1{
+    position: absolute;
+    top: 416px;
+    right: 1080px;
+}
+.icons1:hover{
+    cursor: pointer;
+}
+.nave{
+    position: relative;
+    top: 10px;
+}
+form{
+    padding: 10px;
+    position: relative;
+    left: 15px;
+    font-size: 50px;
+}
+label{
+    font-size: 12px;
+    font-weight: 700;
+    color: #474747;
+    padding: 5px;
+    font-style: bold;
+}
+input{
+    width: 523px;
+    height: 60px;
+    border-radius: 10px;
+    opacity: 40%;
+    color: rgba(71, 71, 71, 1);
+    display: flex;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(102, 102, 102, 0,60);
+    position: relative;
+    left: 10px;
+}
+span{
+    text-decoration: underline;
+}
+header{
+    margin-top: 10px;
+    width: 1440px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+}
+.header{
+    position: relative;
+    top: 22px;
+}
+#logo{
+   position: relative;
+   left: 30px;
+}
+.logo1{
+    position: relative;
+    top: -3px;
+}
+.tenis{
+    position: absolute;
+    left: 670px;
+    bottom: 30px;
+}
+
+footer{
+    background-color: black;
+    min-height: 100%;
+    min-width: 100%;
+    
+    color: white;
+}
+h4{
+    font-weight: 600;
+}
+main{
+    background-color:#B5B6F2;
+    height: 400px;
+}
+
+
