@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+   list-style: none;
 }
 h3{
     color: black;
@@ -44,21 +45,23 @@ button:hover{
     cursor: pointer;
     
 }
-#login{
-    width: 148px;
-    height: 28px;
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
-    position: relative;
-    top: 60px;
-    right: 307px;
-    color: rgba(71, 71, 71, 1);
+#ou{
+ width: 150px;
+ position: absolute;
+ right: 235px;
+ top: 325px;
+ text-decoration: none;
+ font-size: 16px;
+ font-weight: 400;
+color: rgba(71, 71, 71, 1);
+
+ padding: 5px 5px;
+ line-height: 28px;
 }
 .icons1{
-    position: absolute;
-    top: 416px;
-    right: 1080px;
+    position: relative;
+    left: 350px;
+    top: 22px;
 }
 .icons1:hover{
     cursor: pointer;
@@ -72,6 +75,7 @@ form{
     position: relative;
     left: 15px;
     font-size: 50px;
+    width: calc(100% - 15px);
 }
 label{
     font-size: 12px;
@@ -121,20 +125,183 @@ header{
     left: 670px;
     bottom: 30px;
 }
+.tenis1{
+    background-image: url(images/pexels-melvin-buezo-2529148\ 1.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 685px;
+    width: 371px;
+    height: 500px;
 
+}
+.tenis2{
+    background-image: url(images/pexels-melvin-buezo-2529148\ 2.png);
+    width: 371px;
+    height: 500px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 950px;
+    top: 345px;
+
+}
+.logobranca{
+    display: inline;
+}
 footer{
-    background-color: black;
-    min-height: 100%;
-    min-width: 100%;
-    
-    color: white;
+    height: 454px;
+    width: 1498px;
+    display: flex;
+    background-color: #1F1F1F;
 }
 h4{
     font-weight: 600;
 }
 main{
     background-color:#B5B6F2;
-    height: 400px;
+    height: 843px;
+    width: 1498px;
+
 }
+section{
+    background-color: #ffffff;
+    width: 583px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.logobranca{
+    display: flex;
+    position: absolute;
+    bottom: -400px;
+    left: 65px;
+    align-items: center;
+    
+}
+#logobrn{
+    position: relative;
+    bottom: 5px;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+height: 78px;
+width: 307px;
+position: relative;
+left: 45px;
+top: 151px;
+}
+.icons2{
+    height: 20px;
+width: 10px;
+position: relative;
+left: -185px;
+top: 269px;
+display: flex;
+}
+#facebook{
+    position: relative;
+    right: 20px;
+}
+#twiiter{
+    position: relative;
+    left: 20px;
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top: 72px;
+    left: 215px;
+    color: rgb(255, 255, 255);
+}
+ul{
+    position: relative;
+    bottom: -90px;
+    left: 205px;
+    color: rgb(255, 255, 255);
+}
+li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    display: block;
+    padding: 4px;
+    color: rgb(255, 255, 255);
+}
+.li1{
+    position: relative;
+    left: 5px;
+}
+.li2{
+    position: relative;
+    left: 132px;
+}
+.h4cs{
+    position: relative;
+    left: 340px;
+}
+.h4ds{
+    position: relative;
+    left: 540px;
+}
+h6{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 260px;
+    bottom: -220px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+#endereço{
+    position: relative;
+    left: 469px;
+    bottom: -120px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.linha{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: relative;
+padding: 10px;
+    bottom: 85px;
+    width: 1224px;
+    left: 45px;
+}
+#E{
+    position: relative;
+    top: -75px;
+    left: 530px;
+    height: 24px;
+    width: 140px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgb(255, 255, 255);
+
+
+
+}
+body{
+    width: 1400px;
+    height: 1000px;
+
+}
+
+
 
 
