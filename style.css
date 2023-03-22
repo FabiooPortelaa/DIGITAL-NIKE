@@ -147,7 +147,13 @@ header{
 
 }
 .logobranca{
-    display: inline;
+/*  display: flex; */ */
+    position: absolute;
+    /* bottom: -400px; */
+    left: 65px;
+    /* align-items: center; */
+    margin-top: 30PX;
+} 
 }
 footer{
     height: 454px;
