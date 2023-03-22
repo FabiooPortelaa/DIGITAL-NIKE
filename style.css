@@ -173,11 +173,8 @@ section{
     left: 100px;
 }
 .logobranca{
-    display: flex;
     position: absolute;
-    bottom: -400px;
     left: 65px;
-    align-items: center;
     
 }
 #logobrn{
